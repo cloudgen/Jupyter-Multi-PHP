@@ -1,0 +1,24 @@
+{
+    "name": "cloudgen/jupyter-multi-php",
+    "description": "A PHP Kernel for Jupyter",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0.0",
+        "ext-zmq": "*",
+        "composer/composer": "^1.4",
+        "monolog/monolog": "^1.22",
+        "psy/psysh": "^0.8",
+        "ramsey/uuid": "^3.5",
+        "react/zmq": "^0.3.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": { "Cloudgen\\JupyterMultiPHP\\": "src/"}
+    },
+    "scripts": {
+
+    }
+}
